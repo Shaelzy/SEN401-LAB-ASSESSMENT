@@ -1,15 +1,9 @@
-from dataclasses import dataclass
+# students.py
 
-@dataclass
-class Student:
-    name: str
-    score: float
-
-# Initial dataset
-STUDENTS_DATA = [
-    Student(name="John", score=90.5),
-    Student(name="Mary", score=70.0),
-    Student(name="Grace", score=85.4),
-    Student(name="Wale", score=95.0),
-    Student(name="Funom", score=71.0),
-] 
+students = [
+    {"name": "Favour", "score": 78},
+    {"name": "Ola", "score": 92},
+    {"name": "Funom", "score": 66},
+    {"name": "Peter", "score": 88},
+    {"name": "Tirnom", "score": 65}
+]
