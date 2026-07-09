@@ -1,7 +1,7 @@
 # app.py
 
 from students import students
-from utils.helpers import highest_score, lowest_score, average_score
+from Utils.helpers import highest_score, lowest_score, average_score
 
 
 def main():
